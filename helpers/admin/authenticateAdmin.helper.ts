@@ -1,0 +1,3 @@
+const authenticateAdmin = () => {};
+
+export { authenticateAdmin };

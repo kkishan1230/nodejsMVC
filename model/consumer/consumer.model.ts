@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const UserSchema = new mongoose.Schema({
+const ConsumerSchema = new mongoose.Schema({
   name: { type: String, required: true, lowercase: true },
   userName: { type: String, required: true, lowercase: true },
   email: { type: String, required: true, lowercase: true },
@@ -13,6 +13,6 @@ const UserSchema = new mongoose.Schema({
   password: { type: String, require: true },
 });
 
-const User = mongoose.model("User", UserSchema);
+const Consumer = mongoose.model("Consumer", ConsumerSchema);
 
-export default User;
+export default Consumer;
