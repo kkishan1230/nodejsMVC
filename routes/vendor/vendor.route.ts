@@ -11,7 +11,7 @@ vendorAuthRouter.post("/login", () => {});
 
 // register
 vendorAuthRouter.get("/register", (req, res) => {
-  res.send("kishan");
+  res.send("register");
 });
 vendorAuthRouter.post("/register", () => {});
 
